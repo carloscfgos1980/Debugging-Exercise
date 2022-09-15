@@ -1,6 +1,20 @@
-Degugging
+## Assignment: Debug React Hangman
+You'll receive 6 times a Hangman application built with React. In each version, there's a bug and a short description of this bug. Use your debugging skills to find the bug and fix it. For each bug write down step-by-step what you did to find and fix it.
 
-\*The path cannot contain (&)
+https://github.com/WincAcademy/debug-react-galgje
+
+And the problem is....
+
+Bug exercise 1: When the word is guessed correctly, you still lose
+Bug exercise 2: it's not possible to guess a letter
+Bug exercise 3: When the game starts it's won immediately
+Bug exercise 4: When the input field is empty it's still possible to guess that "letter"
+Bug exercise 5: You can continue guessing until -1 guesses
+Bug exercise 6: You can guess the same letter multiple times (beware: this is a new feature!)
+
+
+## Responses:
+*The path cannot contain (&)
 
 1.1 - I switched loseResult : winResult; so when it wins it will show the correct game over. It was not the good solution but it works.
 
